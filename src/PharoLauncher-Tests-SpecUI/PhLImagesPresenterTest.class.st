@@ -19,7 +19,8 @@ PhLImagesPresenterTest >> testFirstImageIsSelectedAtOpening [
 	presenter openWithSpec.
 	
 	self assert: presenter hasSingleImageSelected.
-	self assert: presenter singleImage name equals: presenter singleImageName
+	self assert: presenter singleImage name equals: presenter singleImageName.
+	
 ]
 
 { #category : #tests }

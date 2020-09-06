@@ -189,7 +189,7 @@ PhLLaunchConfigurationPresenter >> initializeWindow: aWindowPresenter [
 	aWindowPresenter
 		title: self image name, ' image launch configurations';
 		initialExtent: 800@550;
-		whenClosedDo: [ self application launchConfigurationEdited: self selectedConfiguration ].
+		whenClosedDo: [ "self application launchConfigurationEdited: self selectedConfiguration" ].
 ]
 
 { #category : #action }

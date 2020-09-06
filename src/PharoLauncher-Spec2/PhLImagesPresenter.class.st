@@ -243,7 +243,7 @@ PhLImagesPresenter >> newLaunchConfigurationDropList [
 { #category : #private }
 PhLImagesPresenter >> readableDateFor: aDateAndTime [ 
 	
-	^ PhLTimeUntilNowStrategy displayStringOf: aDateAndTime
+	 PhLTimeUntilNowStrategy displayStringOf: aDateAndTime
 ]
 
 { #category : #updating }
